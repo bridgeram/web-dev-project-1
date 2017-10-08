@@ -1,9 +1,6 @@
-
-
-
 body {
     background-color: lightskyblue;
-   width:800px; margin: 0 auto
+    width:900px; margin: auto
        
 }
 
@@ -13,34 +10,42 @@ h1 {
     font-family:fantasy;
 }
 
-h3{ text-align: left;
-    padding-left: 20px;}
+#typing{text-align: left;}
 
-p{text-align:left;
-    color: grey}
+h3{ text-align: left;
+    padding-left: 20px;
+}
+
+p{  text-align:left;
+    color: grey
+}
+
 
 #picture { width:200px;height:300px;margin-left: 700px; margin-bottom: 200px;position:absolute;
- -ms-transform: rotate(355deg); /* IE 9 */
-    -webkit-transform: rotate(355deg); /* Chrome, Safari, Opera */
-    transform: rotate(355deg);
-}
-#paragraph {height:100px;
-    font-size: 17px;
+            -ms-transform: rotate(355deg); /* IE 9 */
+            -webkit-transform: rotate(355deg); /* Chrome, Safari, Opera */
+            transform: rotate(355deg);
 }
 
-#gaza{width: 2000px  }
+#paragraph {    height:100px;
+                font-size: 17px;
+}
 
-div{text-align: center;}
+#gaza{  width: 2000px;  
+}
+
+div{text-align: center;
+}
 
 .nfgr{ text-align: right
         color:grey;
  }
 
- .lefts{text-align: left;
- 	padding-left: 100px;}
+ 
 
  #top{text-align: left;
-    font-style:italic;}
+    font-style:italic;
+}
 
 #left {
   position: relative;
@@ -49,8 +54,9 @@ div{text-align: center;}
   margin: 0;
   padding: 0;
   border-right: 1px solid gray;
-  height:200px;
+  height:100px;
   font-size: 14;
+  padding-top: 20px;
 }
 
 #right {
@@ -73,7 +79,8 @@ div{text-align: center;}
   max-width: 600px;
   padding: 2%;
   float: center;
-  overflow: auto; }
+  overflow: auto; 
+}
 
   #left1 {
   position: relative;
@@ -88,11 +95,10 @@ div{text-align: center;}
 
 #right1 {
   position: relative;
-  float: left;
+  float: right;
   width: 49%;
-  margin: 0;
-  padding-bottom: 10px;
-  height:400px;
+  margin: 0;;
+  height:100px;
 
 }
 
@@ -107,7 +113,8 @@ div{text-align: center;}
   max-width: 600px;
   padding: 2%;
   float: center;
-  overflow: auto; }
+  overflow: auto; 
+}
 
 #left2 {
   position: relative;
@@ -116,14 +123,14 @@ div{text-align: center;}
   margin: 0;
   padding: 0;
   border-right: 1px solid gray;
-  height:100px;
+  height:140px;
   font-size: 14;
 }
 
 #right2 {
   position: relative;
   float: right;
-  width: 51%;
+  width: 50%;
   margin: 0;
   padding: 0;
   height:180px;
@@ -140,7 +147,8 @@ div{text-align: center;}
   max-width: 600px;
   padding: 2%;
   float: left;
-  overflow: auto; }
+  overflow: auto; 
+}
 
 #left3 {
   position: relative;
@@ -156,10 +164,12 @@ div{text-align: center;}
 #right3 {
   position: relative;
   float: left;
-  width: 49%;
-  margin: 0;
-  padding: 0;
+  width: 25%;
+  margin: px;
+  padding: 10px;
   height:150px;
+  padding-left:30px;
+    
 }
 
 #whitebox3 {
@@ -174,7 +184,8 @@ div{text-align: center;}
   padding: 2%;
   float: center;
   overflow: auto;
-padding-top: 30px;}
+padding-top: 30px;
+}
 
 #left4 {
   position: relative;
@@ -194,6 +205,7 @@ padding-top: 30px;}
   margin: 0;
   padding: 0;
   height:150px;
+    padding-left:30px;
 }
 
 #whitebox4 {
@@ -207,5 +219,11 @@ padding-top: 30px;}
   max-width: 600px;
   padding: 2%;
   float: center;
-  overflow: auto; }
+  overflow: auto; 
+}
+
+#SocialMediaIcons{margin:auto;
+    padding-right: 200px;
+   
+}
 
