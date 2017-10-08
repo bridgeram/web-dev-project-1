@@ -2,7 +2,7 @@
 
 
 body {
-    background-color: skyblue;
+    background-color: lightskyblue;
    width:800px; margin: 0 auto
        
 }
@@ -10,32 +10,37 @@ body {
 h1 {
     color: black;
     text-align: left;
+    font-family:fantasy;
 }
 
-h3{ text-align: center; }
+h3{ text-align: left;
+    padding-left: 20px;}
 
-p{text-align:left;}
+p{text-align:left;
+    color: grey}
 
 #picture { width:200px;height:300px;margin-left: 700px; margin-bottom: 200px;position:absolute;
  -ms-transform: rotate(355deg); /* IE 9 */
     -webkit-transform: rotate(355deg); /* Chrome, Safari, Opera */
     transform: rotate(355deg);
 }
-#paragraph {height:100px;}
+#paragraph {height:100px;
+    font-size: 17px;
+}
 
 #gaza{width: 2000px  }
 
 div{text-align: center;}
 
-p{color: grey;
-}
-.nfgr{ text-align: right;
+.nfgr{ text-align: right
+        color:grey;
  }
 
  .lefts{text-align: left;
  	padding-left: 100px;}
 
- #top{text-align: left;}
+ #top{text-align: left;
+    font-style:italic;}
 
 #left {
   position: relative;
@@ -53,8 +58,8 @@ p{color: grey;
   float: right;
   width: 49%;
   margin: 0;
-  padding: 0;
-  height:100px;
+  padding:0;
+  height:0px;
 }
 
 #whitebox {
@@ -63,7 +68,7 @@ p{color: grey;
   -moz-border-radius:10px;
   -webkit-border-radius: 10px;
   position: relative;
-  width: 45%;
+  width: 80%;
   min-width: 400px;
   max-width: 600px;
   padding: 2%;
@@ -97,7 +102,7 @@ p{color: grey;
   -moz-border-radius:10px;
   -webkit-border-radius: 10px;
   position: relative;
-  width: 45%;
+  width: 80%;
   min-width: 400px;
   max-width: 600px;
   padding: 2%;
@@ -118,10 +123,10 @@ p{color: grey;
 #right2 {
   position: relative;
   float: right;
-  width: 49%;
+  width: 51%;
   margin: 0;
   padding: 0;
-  height:150px;
+  height:180px;
 }
 
 #whitebox2 {
@@ -130,11 +135,11 @@ p{color: grey;
   -moz-border-radius:10px;
   -webkit-border-radius: 10px;
   position: relative;
-  width: 45%;
+  width: 80%;
   min-width: 400px;
   max-width: 600px;
   padding: 2%;
-  float: center;
+  float: left;
   overflow: auto; }
 
 #left3 {
@@ -150,7 +155,7 @@ p{color: grey;
 
 #right3 {
   position: relative;
-  float: right;
+  float: left;
   width: 49%;
   margin: 0;
   padding: 0;
@@ -163,12 +168,13 @@ p{color: grey;
   -moz-border-radius:10px;
   -webkit-border-radius: 10px;
   position: relative;
-  width: 45%;
+  width: 80%;
   min-width: 400px;
   max-width: 600px;
   padding: 2%;
   float: center;
-  overflow: auto; }
+  overflow: auto;
+padding-top: 30px;}
 
 #left4 {
   position: relative;
@@ -183,8 +189,8 @@ p{color: grey;
 
 #right4 {
   position: relative;
-  float: right;
-  width: 49%;
+  float: left;
+  width: 50%;
   margin: 0;
   padding: 0;
   height:150px;
@@ -196,7 +202,7 @@ p{color: grey;
   -moz-border-radius:10px;
   -webkit-border-radius: 10px;
   position: relative;
-  width: 45%;
+  width: 80%;
   min-width: 400px;
   max-width: 600px;
   padding: 2%;
